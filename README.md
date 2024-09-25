@@ -13,3 +13,15 @@ origin	git@github.com:mendelssohnbach/github-cli-example.git (push)
 ```
 
 VSCode でコミット後に **ブランチの発行** をクリックすると リポジトリにプッシュされる
+
+issue を作成する  
+issue 番号も自動で発行される
+
+```terminal
+gh issue create -t "
+sample issue" -b "これはサンプルのイシューです" -a "@me"
+
+Creating issue in mendelssohnbach/github-cli-example
+
+https://github.com/mendelssohnbach/github-cli-example/issues/1
+```
