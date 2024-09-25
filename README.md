@@ -25,3 +25,12 @@ Creating issue in mendelssohnbach/github-cli-example
 
 https://github.com/mendelssohnbach/github-cli-example/issues/1
 ```
+
+現在のリポジトリをブラザで開く
+
+```terminal
+$ gh browse
+
+// 現在のブランチをブラザで開く
+$ gh browse -b "branch name"
+```
