@@ -12,3 +12,4 @@ origin	git@github.com:mendelssohnbach/github-cli-example.git (fetch)
 origin	git@github.com:mendelssohnbach/github-cli-example.git (push)
 ```
 
+VSCode でコミット後に **ブランチの発行** をクリックすると リポジトリにプッシュされる
